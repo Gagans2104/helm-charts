@@ -2,6 +2,6 @@ appName: employeemanagement
 
 image:
   repo: gagan2104/employeemanagement
-  tag: "7.0"
+  tag: 9
 
 targetPort: 8080
