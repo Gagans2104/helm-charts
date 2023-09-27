@@ -1,0 +1,8 @@
+appName: priyankapractice
+
+image: 
+  repo: sarthaksatish/priyankapractice
+  tag: 7
+
+port: 8080
+targetPort: 8080
