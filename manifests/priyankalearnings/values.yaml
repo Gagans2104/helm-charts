@@ -2,7 +2,7 @@ appName: priyankalearnings
 
 image: 
   repo: sarthaksatish/priyankalearnings
-  tag: 8
+  tag: 3
 
 port: 8080
 targetPort: 8080
