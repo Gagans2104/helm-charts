@@ -23,9 +23,15 @@ spec:
 {{- if eq (.Values.appName | toString) "mysql" }}
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: test
+          valueFrom:
+            secretKeyRef:
+                key: MYSQL_ROOT_PASSWORD
+                name: mysql
         - name: MYSQL_DATABASE
-          value: myapps
+          valueFrom:
+            configMapKeyRef:
+                key: MYSQL_DATABASE
+                name: mysql
 {{- end }}
         resources: {}
 status: {}
