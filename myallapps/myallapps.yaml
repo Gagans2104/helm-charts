@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/Gagans2104/helm-charts.git
     targetRevision: main
-    path: priyankaapp/7.officeapproach
+    path: myapps
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd

@@ -1,0 +1,5 @@
+appName: librarymanagementsys
+
+image: 
+  repo: gagan2104/librarymanagement
+  tag: 2

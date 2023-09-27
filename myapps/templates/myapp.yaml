@@ -13,7 +13,7 @@ spec:
   source:
     repoURL: https://github.com/Gagans2104/helm-charts.git
     targetRevision: main
-    path: charts/helm-charts
+    path: helm-charts
     helm:
       valueFiles:
         - "/manifests/{{ . }}/values.yaml"

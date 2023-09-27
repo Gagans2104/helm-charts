@@ -3,7 +3,5 @@
 # Declare variables to be passed into your templates.
 
 applications:
-# - solar-system
-- priyankalearnings
+- librarymanagementsys
 - employeemanagement
-# - priyankapractice
