@@ -2,6 +2,6 @@ appName: librarymanagementsys
 
 image: 
   repo: gagan2104/librarymanagement
-  tag: 2
+  tag: 3
 
 targetPort: 8085
