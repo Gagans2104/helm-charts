@@ -20,5 +20,12 @@ spec:
       containers:
       - image: {{ .Values.image.repo }}:{{ .Values.image.tag }}
         name: {{ .Values.appName }}
+{{- if eq (.Values.appName | toString) "mysql" }}
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: test
+        - name: MYSQL_DATABASE
+          value: myapps
+{{- end }}
         resources: {}
 status: {}

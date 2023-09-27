@@ -6,7 +6,7 @@ metadata:
   name: {{ .Values.appName }}svc
 spec:
   ports:
-  - port: 8080
+  - port: {{ .Values.port }}
     protocol: TCP
     targetPort: {{ .Values.targetPort }}
   selector:

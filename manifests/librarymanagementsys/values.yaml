@@ -4,4 +4,5 @@ image:
   repo: gagan2104/librarymanagement
   tag: 3
 
+port: 8080
 targetPort: 8085

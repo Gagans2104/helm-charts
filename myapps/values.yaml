@@ -5,4 +5,4 @@
 applications:
 - librarymanagementsys
 - employeemanagement
-# - mysql
+- mysql
